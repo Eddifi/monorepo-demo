@@ -1,0 +1,6 @@
+{
+  "framework": "remix",
+  "buildCommand": "cd ../.. && pnpm turbo run build --filter=blog",
+  "installCommand": "pnpm install",
+  "regions": ["iad1"]
+}
