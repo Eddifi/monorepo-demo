@@ -1,8 +1,7 @@
 {
-  "buildCommand": "pnpm turbo build --filter=storefront",
+  "buildCommand": "bash build-storefront.sh",
   "devCommand": "cd apps/storefront && pnpm dev",
   "installCommand": "pnpm install --no-frozen-lockfile",
-  "framework": null,
   "outputDirectory": "apps/storefront/.next",
   "ignoreCommand": "git diff --quiet HEAD^ HEAD ./apps/storefront"
 }
