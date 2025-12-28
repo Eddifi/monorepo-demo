@@ -1,0 +1,7 @@
+{
+  "buildCommand": "bash build-admin.sh",
+  "devCommand": "cd apps/admin && pnpm dev",
+  "installCommand": "pnpm install --no-frozen-lockfile",
+  "outputDirectory": "apps/admin/dist",
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD ./apps/admin"
+}
